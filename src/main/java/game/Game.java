@@ -70,7 +70,7 @@ public class Game {
         Random random = new Random();
         startingPosition[0] = random.nextInt(NUMBER_OF_POSSIBLE_MOVES);
         startingPosition[1] = random.nextInt(NUMBER_OF_POSSIBLE_MOVES);
-        grid[startingPosition[0]][startingPosition[1]] = 0;
+        grid[startingPosition[0]][startingPosition[1]] = MOVE_SYMBOL;
     }
     private boolean isMovePossible() {
 
